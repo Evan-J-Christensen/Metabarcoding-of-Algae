@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# Test branch 
+
 conda activate genomics
 
 cd ~/myrepo
