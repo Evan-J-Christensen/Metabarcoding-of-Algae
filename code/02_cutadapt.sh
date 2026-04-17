@@ -1,3 +1,5 @@
+# test branch
+
 #!/bin/bash
 
 ### THIS IS WHERE PROJECTS BEGIN TO DIVERGE. The cutadapt parameters and primers will depend on the project. See qiime2_parameters.sh for cutadapt parameters and 01_trim.sh for polyG filter parameters.

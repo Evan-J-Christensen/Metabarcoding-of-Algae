@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# Test branch 
+
 conda activate genomics
 
 cd ~/Metabarcoding-of-Algae
@@ -9,7 +12,7 @@ polyg_len=150 ## copied from qiime2_parameters.sh
 chmod +x code/polyGfilter.sh
 
 ### This is the same as..
-code/polyGfilter.sh ${polyg_len}
+code/polyGfilter.sh "${polyg_len}"
 ### this
 # code/polyGfilter.sh 150 
 
