@@ -1,14 +1,5 @@
 #!/bin/bash
-primer="16s_V4-V5"
-projname="YOURPROJ_${primer}"
-## example: projname="Cyanobac_16s_V4-V5"
-
-## copied from qiime2_parameters.sh
-fw='^GTGYCAGCMGCCGCGGTAA'	
-rv='^CCGYCAATTYMTTTRAGTTT'
-cutadapt_config="--p-front-f $fw --p-front-r $rv"
-
-### See qiime2_parameters.sh for cutadapt parameters and 01_trim.sh for polyG filter parameters.
+source ~/Metabarcoding-of-Algae/code/qiime2_parameters.sh
 
 ### import 
 qiime tools import \

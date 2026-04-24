@@ -1,4 +1,6 @@
 #!/bin/bash
+source ~/Metabarcoding-of-Algae/code/qiime2_parameters.sh
+
 conda activate genomics
 
 cd ~/myrepo
