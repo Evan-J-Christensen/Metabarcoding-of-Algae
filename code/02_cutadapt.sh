@@ -1,6 +1,7 @@
 # test branch
 
 #!/bin/bash
+source ~/Metabarcoding-of-Algae/code/qiime2_parameters.sh
 
 ### THIS IS WHERE PROJECTS BEGIN TO DIVERGE. The cutadapt parameters and primers will depend on the project. See qiime2_parameters.sh for cutadapt parameters and 01_trim.sh for polyG filter parameters.
 primer="RBCL"
@@ -18,7 +19,7 @@ qiime tools import \
 
 
 ## copied from qiime2_parameters.sh
-fw='^GTGYCAGCMGCCGCGGTAA'	
+fw='^GTGYCAGCMGCCGCGGTAA'
 rv='^CCGYCAATTYMTTTRAGTTT'
 cutadapt_config="--p-front-f $fw --p-front-r $rv"
 
@@ -36,5 +37,3 @@ qiime cutadapt trim-paired \
 qiime demux summarize \
     --i-data results/${projname}_demux_cutadapt.qza \
     --o-visualization results/${projname}_demux_cutadapt.qzv
-
-

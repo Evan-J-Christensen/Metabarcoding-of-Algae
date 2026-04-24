@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/Metabarcoding-of-Algae/code/qiime2_parameters.sh
 
 # Test branch 
 
