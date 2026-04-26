@@ -2,10 +2,12 @@
 
 ## qiime2 parameters for each metabarcode
 
+echo "Loading qiime2 parameters"
+
 
 ## RBCL
     primer="RBCL"
-    program="DEP_${primer}"
+    projname="DEP_${primer}"
 
 
     fw1="^AGGTGAAGTAAAAGGTTCWTACTTAAA"
@@ -15,7 +17,8 @@
     rv1="^CCTTCTAATTTACCWACWACTG"
     rv2="^CCTTCTAATTTACCWACAACAG"
 
-    cutadapt_config="--p-front-f $fw1 --p-front-f $fw2 --p-front-f $fw3 --p-front-r $rv1 --p-front-r $rv2"
+    fws=($fw1 $fw2 $fw3)
+    rvs=($rv1 $rv2)
 
 
     polyg_len=150
