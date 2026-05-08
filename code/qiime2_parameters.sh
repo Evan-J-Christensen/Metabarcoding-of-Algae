@@ -5,7 +5,7 @@
 
 ## RBCL
     primer="RBCL"
-    program="DEP_${primer}"
+    projname="DEP_${primer}"
 
 
     fw1="^AGGTGAAGTAAAAGGTTCWTACTTAAA"
@@ -38,8 +38,9 @@
     weak_id=0.50 
     #tophit_perc_identity=0.90
 
-    refreads=${refreads:-/home/unhAW/jtmiller/watts/ref-database/rbcl/diat_barcode_v10_263bp-seqs.qza}
-    reftax=${reftax:-/home/unhAW/jtmiller/watts/ref-database/rbcl/diat_barcode_v10_263bp-tax.qza}
-    blastdb=${blastdb:-/home/unhAW/jtmiller/watts/ref-database/rbcl/blast_diat.barcode}
-    sklearn=${sklearn:-/home/unhAW/jtmiller/watts/ref-database/rbcl/diat_barcode_v10_263bp-sklearn-classifier.qza}
+    refreads=${refreads:-~/Metabarcoding-of-Algae/refdb/diat_barcode_v10_263bp-seqs.qza}
+    reftax=${reftax:-~/Metabarcoding-of-Algae/refdb/diat_barcode_v10_263bp-tax.qza}
+    blastdb=${blastdb:-~/Metabarcoding-of-Algae/refdb/blast_diat.barcode}
+    sklearn=${sklearn:-~/Metabarcoding-of-Algae/refdb/diat_barcode_v10_263bp-sklearn-classifier_1.4.2.qza}
 
+    threads=4

@@ -1,6 +1,6 @@
-# test branch
-
 #!/bin/bash
+conda activate qiime2-amplicon-2026.1
+
 source ~/Metabarcoding-of-Algae/code/qiime2_parameters.sh
 
 ### See qiime2_parameters.sh for cutadapt parameters and 01_trim.sh for polyG filter parameters.
