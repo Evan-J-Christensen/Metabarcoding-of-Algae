@@ -41,9 +41,9 @@ echo "Loading qiime2 parameters"
     weak_id=0.50 
     #tophit_perc_identity=0.90
 
-    refreads=${refreads:-/tmp/GEN711-811_data/refdbs/diat_barcode_v10_263bp-seqs.qza}
-    reftax=${reftax:-/tmp/GEN711-811_data/refdbs/diat_barcode_v10_263bp-tax.qza}
-    blastdb=${blastdb:-/tmp/GEN711-811_data/refdbs/blast_diat.barcode}
-    sklearn=${sklearn:-/tmp/GEN711-811_data/refdbs/diat_barcode_v10_263bp-sklearn-classifier.qza}
+    refreads=${refreads:-~/Metabarcoding-of-Algae/refdb/diat_barcode_v10_263bp-seqs.qza}
+    reftax=${reftax:-~/Metabarcoding-of-Algae/refdb/diat_barcode_v10_263bp-tax.qza}
+    blastdb=${blastdb:-~/Metabarcoding-of-Algae/refdb/blast_diat.barcode}
+    sklearn=${sklearn:-~/Metabarcoding-of-Algae/refdb/diat_barcode_v10_263bp-sklearn-classifier_1.4.2.qza}
 
-
+    threads=4

@@ -1,5 +1,9 @@
 #!/bin/bash
+conda activate qiime2-amplicon-2026.1
+
 source ~/Metabarcoding-of-Algae/code/qiime2_parameters.sh
+
+cd ~/Metabarcoding-of-Algae/data
 
 qiime feature-classifier classify-hybrid-vsearch-sklearn \
   --i-query results/${projname}_rep-seqs.qza \
