@@ -1,5 +1,4 @@
-# Metabarcoding-of-Algae
-Metabarcoding of Algae (Diatoms) to compare high and low quality streams.
+# Chloride Pollution and Diatom Diversity in Massachusetts Streams
 
 ## Authors
 Caitlyn Bailey & Evan Christensen
